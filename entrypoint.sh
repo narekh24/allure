@@ -22,6 +22,7 @@ fi
 
 
 unset JAVA_HOME
-allure generate --clean
+allure generate --clean && allure-open
+
 echo "listing report directory ..."
 ls -l $REPORT_DIRECTORY
